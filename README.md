@@ -4,7 +4,7 @@
 使用步骤：
 
 * 添加将要播放的音源（mp3格式，其他格式也行，不过需要改代码）
-* 修改宏，设置音源个数,添加数组索引：：
+* 修改宏，设置音源个数,添加数组索引：
 
 ```
 #define MAX_BUFFER_COUNT        4. //OpenALPlayer.m (11)
@@ -12,7 +12,7 @@
  
 ```
 gSourceFile = [[NSArray alloc] initWithObjects:
-                   @"flyup",@"hit",@"gg",@"start",nil];  // //OpenALPlayer.m (129)
+                   @"flyup",@"hit",@"gg",@"start",nil];  //OpenALPlayer.m (129)
 ```
 * 播放：
 
